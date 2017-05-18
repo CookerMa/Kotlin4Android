@@ -22,7 +22,9 @@ class MainActivity : AppCompatActivity() {
         var user = User();
         user.age = "23";
         user.name = "Test"
+        user.isStu = true;
         Log.e(TAG,user.toString());
+        user.setStuName();
 
         var stu =Student();
         stu.name ="张三"
