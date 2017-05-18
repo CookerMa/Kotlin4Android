@@ -31,10 +31,15 @@ class MainActivity : AppCompatActivity() {
         stu.sex =1
         Log.e(TAG,stu.toString());
 
+         C("haha").ID;
     }
 
     fun MainActivity.a()
     {
         this.textView.setText("nice to meet you!")
     }
+    class C(id:String){
+        @JvmField val ID = id
+    }
+
 }

@@ -20,7 +20,7 @@ java中调用
 XXX 指的是类名 ，XXXKt文件会生成在 app ->build->intermediates->classes->debug->demo 包下
 -----------------------------------------------
 不修改包名 就像java一样调用
-XXX x = new XXX();
+var x =  XXX();
 x.test();
 ----------------------------------------------
 ```
