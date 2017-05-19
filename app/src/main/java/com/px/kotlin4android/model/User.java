@@ -3,6 +3,7 @@ package com.px.kotlin4android.model;
 import android.util.Log;
 
 import demo.Teacher;
+import kotlin.jvm.JvmField;
 
 /**
  * Created by Administrator on 2017/5/17.
@@ -12,6 +13,8 @@ public class User {
     private String name ;
     private String age ;
     private boolean isStu;
+
+
 
     public boolean isStu() {
         return isStu;
@@ -43,8 +46,10 @@ public class User {
 //        student.setName();
 //        Log.e("User","---------"+student.getName());
         new demo.Teacher();
-        demo.TeacherKt.clazz();
+        demo.TeacherKt.clazz("heihie");
     }
+
+
 
     @Override
     public String toString() {
